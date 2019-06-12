@@ -1,0 +1,81 @@
+/* 1ra clase de pseudoelemento
+p{
+
+	position: relative;
+}
+p:before{
+content: "¡'sfsdf¡-";
+top: 50px;
+position: relative;
+left: 150px;
+}
+*/
+/*--=======2da clase de pseudoelementos=======-------
+------HOVER 
+ANIMACION DE TEXTO
+-----ACTIVE
+AL PULSAR CLIC AL MOMENTO DE ESTAR EJECUTANDOSE
+------FOCUS
+
+*//*
+a#link1:visited{
+	color: red;
+	font-size: 20px;
+	background: green;
+	text-decoration: both;
+}
+
+p:hover{
+	color: green;
+	padding: 2px 5px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+span:active{
+	color: green;
+}
+/*CONTROL + SHIFT+ C PARA ABRIR PALETA DE COLORES*/
+/*input:focus{
+	border-radius: 5px;
+	background:#E8EABD;
+}
+*/
+/*---============================================*/
+body{
+	background:  #F6F6C7;
+}
+div *{
+border: 1px solid black;
+width: 100px;
+height: 100px;
+background: white;
+display: inline-block;
+}
+/* :nth-child()<-- indica el numero de la posicion que se desee mdificar*/
+/* :nth-last-child()<-- indica el numero de la posicion que se desee mdificar pero comienza desde el final hacia el inicio*/
+/* :nth-child(odd)<-- indica  solo de IMPARES*/
+/* :nth-child(even)<-- indica  solo de IMPARES*/
+/*div *:nth-child(even){background: orange; }*/
+/* p:nth-of-type(2)<---- indica --"p:"-- de que elemento el numero sera utilizado*/
+/* p:nth-last-of-type(2)<---- indica --"p:"-- de que elemento el numero sera utilizado pero comenzara desde el final hasta el incio*/
+/*	p:nth-of-type(odd,even)<-- tbm puede ser impares o pares*/
+/*  :first-of-type  <------------ indica el primero del elemento*/
+/*  :last-of-type  <------------ indica el ultimo a primero */
+/*  :only-of-type  <------------ indica a solo un elemento */
+/*  :empty*/
+/*  :not(S)*/
+	div *:not(p){
+		background: orange;
+	}
+/*
+
+
+/*
+sirve para dar algo mas del contenido y
+ el usuario nunca podra acceder al querer seleccionarlo
+ ===============================
+	Estructura del pseudoelemento
+	|---------------------------|
+	| :before <elemento> :after |
+	|---------------------------|
+/*

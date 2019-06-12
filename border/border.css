@@ -1,0 +1,45 @@
+div
+{
+height: 200px;
+width:100px;
+background: orange;
+margin: 50px;
+border-color: green;
+border-style:solid;
+border-width: 10px;
+border-top-style :double;
+border-radius: 20px;
+border-top-right-radius:35px;
+border-top-left-radius:30px;
+border-top-right-radius:35px 30px;
+
+}
+
+
+
+
+/*Los atributos fundamentales para establecer el 
+borde aun elemento son:
+----> indica la anchura del borde
+border-width:
+------------------------------------->
+----> Indica el tipo del borde (solid,dashed, double,
+	dotted,inset(),outset, o none)
+border-style:
+------------------------------------->
+----> Indica el color del borde
+border color:;
+Estos atributos pueden reunirse en una sola linea con la estructura
+----------------border:2px solid green;---------------
+------------------------------------->
+====Asi mismo  se puede aplicar aun borde concreto con 
+	border-top-style o 
+	border-left-color,etc
+
+
+---------------------------------------->
+border-radius:20px;
+border-top-left-radius:30px 10px;
+
+
+*/

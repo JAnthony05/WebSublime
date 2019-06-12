@@ -1,0 +1,27 @@
+div
+{
+	height: 200px;
+	width: 200px;
+	background: white;
+	margin: 50px;
+	text-align: center;
+	border: 1px solid black; 
+	box-shadow: 1px 1px 0px gray,
+			    2px  2px 0px gray,
+			    3px  3px 0px gray,
+			    4px  4px 0px gray,	
+			    5px  5px 0px gray,
+		     	6px  6px 0px black;
+
+}
+p{
+	position: relative;
+	top: 70px;
+	/*font-size: 20px;*/
+	text-shadow: 0px 0px 10px red;
+	color: white;
+}
+
+/*
+inset hace que la sombra sea internamente
+	box-shadow: inset ;*/

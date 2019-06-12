@@ -1,0 +1,26 @@
+/*TIPO DE LETRA DE MANERA INTERNA*/
+/*===============================*/
+@font-face{
+	/*si no encuentra se puede adicionar -->'cualquier tipo de letra'
+		ejm:
+		font-family: "irlandesa",Arial;
+	*/
+	font-family: "irlandesa";
+	/*ruta*/
+	src:url("font/irlandesa.odt");
+	/* si no se encuentra el tipo de letra con esa extension ,busca el reemplazo*/
+		src:local('?'),
+		url("font/irlanda.woff")format("woff"),
+		url("font/irlanda.ttf")format("truetype")
+}
+p{
+	font-family: "irlandesa",Arial;
+}
+/*TIPO DE LETRA DE MANERA EXTERNA*/
+/*este formato es obtenido de google font*/
+/*=================================*/
+span{
+font-family: 'Merienda', cursive;
+
+}
+/*===================================*/

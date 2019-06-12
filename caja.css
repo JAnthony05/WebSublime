@@ -1,0 +1,96 @@
+
+/*Clases de dimension, paddin y margin*/
+/*
+div{
+	width: 50%;
+	height: 100px;
+	border:  1px solid black;
+}
+div.dimension{
+min-width: 250px;
+max-width: 400px;
+}
+p{
+	border: 2px solid black;
+	background: orange;
+	display: block;
+	margin: 50px 0px;
+}
+p#ghot{
+	display: none;
+}
+*/
+/*Clases de dimension, paddin y margin*/
+.padre{
+	width: 250px;
+	height: 250px;
+	margin: 25px;
+	background: orange;
+	position: relative;
+	overflow: hidden;
+}
+.hijo2{
+	width: 100px;
+	height: 100px;
+	background: green;
+	position: absolute;
+	/*z-index: 0;
+
+	/*	float: left;
+	float: right;*/
+	/*display: none;*/
+}
+.hijo1{
+	width: 50px;
+	height: 50px;
+	background: red;
+	display: inline-block;
+	z-index: 99;
+	position: relative;
+	top: -25px;
+/*position: fixed;*/
+	/*position: absolute;*/
+	/*el top toma del body*/
+	/*top: 0px;
+	left:0px;*/
+	/*top: 30px;*/
+}
+.oculto{
+	visibility: hidden;
+}
+.transparencia{
+	opacity: 0.5;	
+}
+/*
+.hijo3{
+	width: 50px;
+	height: 50px;
+	background: blue;
+	display: inline-block;
+	clear:  both;
+}
+
+
+
+
+----------POSITION
+postition fixed toma la cuenta del padre general que viene ser el padre
+float y display: inline-block 	siempre van combinadas
+----------CLEAR
+LIMPIA A TODOS DEPENDIENDO CUAL SE USE SEA LEFT,RIGHT,BOTH
+---------- Z INDEX
+INDICA LA POSICCION DEL EJE  SE PUEDE PONER AL FRENTE
+--- SIEMPRE SE TIENE QUE ESPECIFICAR CON UN POSITION
+z-index:99
+position:relative;
+----------OVERFLOW
+ELIMINAR TODO LO QUE SE SALGA DEL PADRE 
+siempre ira equipado en el padre
+overflow:hidden;
+-----------VISIBILITY
+el objeto se mantiene con la estructura de posicionamiento pero no se hace visible
+visibility:hiden;
+-----------OPACITY 
+SIRVE PARA BAJAR LA TRANSPARENCIA 
+opacity:0.5 ;
+*/

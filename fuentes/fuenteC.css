@@ -1,0 +1,65 @@
+span{
+	font-family: "Architects Daugther",cursive;
+}
+p.text{
+	font-family: arial;
+	font-weight: normal;
+	font-style: normal;
+	text-align: justify;
+	text-decoration: line-through;
+	/*text-transform: lowercase;*/
+	font-variant:small-caps;
+	text-indent: 14px;
+	letter-spacing: -1px;
+	word-spacing: 5px;
+}
+p.text:first-letter{
+	font-size: 30px;
+}
+p.text:first-line{
+	font-size: 30px;
+}
+
+
+
+/*=============================================
+Los valores para font-weight pueden ser 100,200,
+300,400,500,600,700,800,normal ,lighter,bold y bolder
+Las palabras reservadas tienen su equivalencia:
+normal:400,
+bold:700,
+bolder:900,
+lighter:100;
+Los valores para font-style pueden ser 
+.normal,italic y oblique 
+
+Los valores para text-decoration pueden ser 
+.normal o  none,underline,overline o line-trough 
+
+Los valores para text-align pueden ser 
+left,right,center,justify
+
+Los valores para text-transform pueden ser 
+/*Las primeras letras se vuelven mayusculas
+capitalize ,
+/* te combierte en mayuscula
+uppercase  o 
+/*te combierte en minuscula
+lowercase
+
+--tambien podemos darle a font-variant el 
+valor small caps(hace que vuelva alas minusculas 
+mayusculas pero sin perder su tamaño)
+----> dar el espacio adelante(sangria)
+text-indent:
+----->da los espacios del texto segun el tamaño requerido
+letter-spacing:
+-----> depende a lo que se requiere dar la separacion ala letra del texto  
+word-spacing:
+----->Toma la primera letra del texto y la vuelve grande
+ segun el tamaño que se le indique
+:first-letter;
+----->Toma la primera linea del texto y la vuelve grande
+ segun el tamaño que se le indique
+:first-line;
+*/

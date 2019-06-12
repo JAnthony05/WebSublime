@@ -1,0 +1,81 @@
+/* in:(inches o pulgadas)
+	1in = 2.54cm
+	cm:centimentros
+	mm: milimetros
+	pt: puntos
+			1pt=0.35mm
+	pc:picas 
+			1pc=12pt=4.23mm;
+	;
+*/
+p.in{
+
+	font-size: .5in;
+}
+p.cm{
+
+	font-size: 1cm;
+}
+p.mm{
+
+	font-size: 10mm;
+}
+/*Normalmente se utiliza para la impresion*/
+p.pt{
+
+	font-size: 30pt;
+}
+p.pc{
+font-size: 2pc;
+
+}
+/*
+	div{
+		background: red;
+	}*/
+div.fijo{
+		height: 100px;
+		width: 100px;
+}
+/*
+div.porcentual{
+		height: 100px;
+		width: 50%;
+		background: green;
+		margin: 5%;
+}*/
+/*COLORES*/
+div{
+
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+div.reservados{
+	background: Lime
+}
+.luzRGV{
+	background:rgb(100,48,5);
+}
+.hex{
+
+	background: #643905;
+}
+.porcentual{
+background: rgb(50%,28%,75%);
+}
+.hsl{
+background: hsl(128,50%,28%)
+
+}
+body{
+	background: yellow;
+}
+.rgb_transparencia{
+	background:rgba(127,51,191,0.5);
+}
+.hsl_transparencia{
+	background:hsla(127,50%,28%,0.8);
+}

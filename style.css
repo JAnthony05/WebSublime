@@ -1,0 +1,92 @@
+/*unidades de medidas relativas y absolutas*/
+/*RECOMENDACION SE DEBE USAR EM*/
+body{
+	font-size: 16px
+}
+p.em{
+
+	font-size: 2em;
+}
+div p{
+font-size: 2em;
+}
+
+div p.rem{
+font-size: 2em;
+}
+ p.ex{
+font-size: 1ex;
+}
+/*<!-- -->
+/*
+header h2,h3{
+	color: red;
+	}
+*/
+
+p#azul{
+
+
+	color: blue;
+}
+.prueba {
+ color: orange;
+}
+.grande{
+ color: gren;
+ font-size: 20px;
+}
+/*elemento1 + elemento2*/
+p+p{
+ font-weight: bolder;
+}
+div > p{
+color: red;
+
+}
+/*1ra forma
+h2[title]{
+color: green;
+
+}*/
+/*2da forma*/
+h2[title ="_hpm"]{
+	color: red;
+}
+/*3da forma*/
+h2[title ~="otro"]{
+	color: red;
+}
+h2[lang |="es"]{
+	color: blue;
+}
+article p{
+font-size: 20px;
+
+}
+/*ID del p*/
+#grincero{
+	color: gray;
+}
+/*clase*/
+.rojo{
+	color:  red!important;
+}
+.naranja{
+	color: blue ;
+}
+
+/*colosion de estilos 
+#<-- para los id 
+. <-- para las clases
+1- css del navegador
+2- css del uusario
+3- archivos css enlasados en el orden añadidos
+4- propiedades que se heredan
+5- propiedaDES EspecificAS DEL elemento
+6-clases asignadas y en el mismo orden
+7- identificador
+8- important
+
+*/
+ */
